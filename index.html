@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Raphael | Calculator</title>
+</head>
+<body>
+    <header>
+        <h1 id="results"></h1>
+    </header>
+    <main>
+        <button onclick="clearResults()" class="action" id="AC">AC</button>
+        <button class="action" id="negative">+/-</button>
+        <button class="action" id="percentage">%</button>
+        <button onclick="operator(this.textContent)" class="operation" id="divide">/</button>
+        <button onclick="addNumber(this)" id="seven">7</button>
+        <button onclick="addNumber(this)" id="eight">8</button>
+        <button onclick="addNumber(this)" id="nine">9</button>
+        <button onclick="operator(this.textContent)" class="operation" id="multiply">X</button>
+        <button onclick="addNumber(this)" id="four">4</button>
+        <button onclick="addNumber(this)" id="five">5</button>
+        <button onclick="addNumber(this)" id="six">6</button>
+        <button onclick="operator(this.textContent)" class="operation" id="subtract">-</button>
+        <button onclick="addNumber(this)" id="one">1</button>
+        <button onclick="addNumber(this)" id="two">2</button>
+        <button onclick="addNumber(this)" id="three">3</button>
+        <button onclick="operator(this.textContent)" class="operation" id="adition">+</button>
+        <button onclick="addNumber(this)" id="zero">0</button>
+        <button id="decimal">,</button>
+        <button onclick="calculate()" class="operation" id="equals">=</button>
+        </div>
+    </main>
+    <script src="./assets/js/controls.js"></script>
+</body>
+</html>
