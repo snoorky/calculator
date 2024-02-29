@@ -33,7 +33,7 @@ function calculate() {
         case "-":
             final = number1 - number2;
             break;
-        case "*":
+        case "X":
             final = number1 * number2;
             break;
         case "/":
