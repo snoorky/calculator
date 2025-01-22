@@ -1,9 +1,9 @@
 {
-  "name": "calculadora",
+  "name": "calculator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://snoorky.github.io/calculadora/",
+  "homepage": "https://snoorky.github.io/calculator/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
