@@ -2,15 +2,14 @@
 
 A simple calculator project, developed to perform operations such as addition, subtraction, multiplication and division, with a modern and intuitive design.
 
-<img src="./public/screenshot.png" alt="imagem da calculadora" />
-Ideal for those looking for practicality in quick calculations, with an attractive look!
+<img src="./public/screenshot.png" alt="Application screenshot" />
 
 ## 📚 Technologies
 
 This project was developed with the following technologies:
 
 - ⚡️ ReactJS
-- 🎨 Tailwind
+- 🎨 TailwindCSS
 
 ## 💻 Project
 
